@@ -25,18 +25,9 @@ The idea is to iterate quickly on top of the Swagger 1.2 description format. As 
     git clone git@github.com:wordnik/phonics.git
     npm install
     bower install
-    npm run fix-coffee
     grunt serve
 
 This will open a browser window running current development version.
-
-#### Problem with CoffeeScript Grunt Module
-
-We need to update grunt-contrib-coffee's coffee-script version to `1.6.0` to avoid some issues. If you have issues with CoffeeScript, run following npm command to fix it: 
-
-```
-$ npm run fix-coffee
-```
 
 ## Building and publishing
 
